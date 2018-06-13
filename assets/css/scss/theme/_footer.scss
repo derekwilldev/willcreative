@@ -1,0 +1,84 @@
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background: $logo-red;
+	width: 100%;
+}
+
+
+/* Footer quick contact - sticky footer */
+footer .quick-contact {
+	padding-top: 25px;
+	padding-bottom: 25px;
+
+	ul {
+		margin: 0;
+		padding: 0;
+
+		li {
+			list-style-type: none;
+			display: inline;
+			font-size: 14px;
+			margin: 0 31px;
+		}
+
+		li:fist-child {
+			margin-left: 0px;
+		}
+
+		li:last-child {
+			margin-right: 0px;
+		}
+	}
+}
+
+
+/* Footer's contact button/page link */
+.contact-button__wrapper {
+	background: $white;
+	height: 100px;
+	width: 100%;
+	position: absolute;
+	@include top-border-radius(15px);
+
+	a {
+		color: $logo-red;
+		font-weight: 900;
+	}
+
+	a:hover {
+		color: $primaryLink;
+		text-decoration: none;
+		box-shadow: 0 -5px 18px rgb(0, 0, 0.5);
+	}
+}
+
+
+@media (max-width: 767px) {
+	.quick-contact__contact-button {
+		padding: 0;
+	}
+}
+
+@media (min-width: 768px) {
+	.contact-button__wrapper {
+		margin-top: -45px;
+		cursor: pointer;
+
+		a {
+			font-size: 30px;
+			line-height: 85px;
+			height: 100%;
+			width: 100%;
+			display: block;
+			@include top-border-radius(15px);
+		}
+	}
+}
+
+
+/* Footer's copyright */
+footer copyright {
+	font-size: 10px;
+}
