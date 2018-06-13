@@ -1,0 +1,76 @@
+/* reds */
+$dark-red: #961e2c;
+$logo-red: #bd1e2c;
+
+
+$black: #000000;
+$white: #FFFFFF;
+
+
+$primaryLink:#000000;
+$primaryLinkHover: #E52E43;
+$primaryLinkActive: #000000;
+$primaryLinkVisited: #000000;
+
+$secondaryLink: #FFFFFF;
+
+
+/* fonts/text */
+$sans-fonts: 'Didact Gothic', sans-serif;
+
+
+/* Base/default styles for theme */
+body {
+	background: $dark-red;
+	margin: 0 0 100px 0;
+}
+
+h1 {
+	font-family: $sans-fonts;
+}
+
+h2 {
+	font-family: $sans-fonts;
+}
+
+h3 {
+	font-family: $sans-fonts;
+}
+
+h4 {
+	font-family: $sans-fonts;
+}
+
+h5 {
+	font-family: $sans-fonts;
+}
+
+h6 {
+	font-family: $sans-fonts;
+}
+
+p {
+	font-family: $sans-fonts;
+	font-size: 20px;
+}
+
+ul {
+	font-family: $sans-fonts;
+}
+
+a {
+	font-family: $sans-fonts;
+	color: $primaryLink;
+}
+
+a:hover {
+	color: $primaryLinkHover;
+}
+
+/* a:visited {
+	color: $primaryLinkVisited;
+} */
+
+a:active {
+	color: $primaryLinkActive;
+}
