@@ -21,36 +21,43 @@ $sans-fonts: 'Didact Gothic', sans-serif;
 
 /* Base/default styles for theme */
 body {
-	background: $dark-red;
+	background: $white;
 	margin: 0 0 100px 0;
 }
 
 h1 {
 	font-family: $sans-fonts;
+	color: $dark-red;
 }
 
 h2 {
 	font-family: $sans-fonts;
+	color: $dark-red;
 }
 
 h3 {
 	font-family: $sans-fonts;
+	color: $dark-red;
 }
 
 h4 {
 	font-family: $sans-fonts;
+	color: $dark-red;
 }
 
 h5 {
 	font-family: $sans-fonts;
+	color: $dark-red;
 }
 
 h6 {
 	font-family: $sans-fonts;
+	color: $dark-red;
 }
 
 p {
 	font-family: $sans-fonts;
+	color: $cfcfcf;
 	font-size: 20px;
 }
 
