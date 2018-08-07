@@ -9,6 +9,8 @@
 
 /* Import theme css */
 /* reds */
+/* grays */
+/* Links */
 /* fonts/text */
 /* Base/default styles for theme */
 body {
@@ -17,31 +19,37 @@ body {
 
 h1 {
   font-family: "Didact Gothic", sans-serif;
-  color: #961e2c; }
+  color: #bd1e2c;
+  font-weight: 900; }
 
 h2 {
   font-family: "Didact Gothic", sans-serif;
-  color: #961e2c; }
+  color: #bd1e2c;
+  font-weight: 900; }
 
 h3 {
   font-family: "Didact Gothic", sans-serif;
-  color: #961e2c; }
+  color: #bd1e2c;
+  font-weight: 900; }
 
 h4 {
   font-family: "Didact Gothic", sans-serif;
-  color: #961e2c; }
+  color: #bd1e2c;
+  font-weight: 900; }
 
 h5 {
   font-family: "Didact Gothic", sans-serif;
-  color: #961e2c; }
+  color: #bd1e2c;
+  font-weight: 900; }
 
 h6 {
   font-family: "Didact Gothic", sans-serif;
-  color: #961e2c; }
+  color: #bd1e2c;
+  font-weight: 900; }
 
 p {
   font-family: "Didact Gothic", sans-serif;
-  color: #cfcfcf;
+  color: #999999;
   font-size: 20px; }
 
 ul {
@@ -169,7 +177,7 @@ footer copyright {
   margin-bottom: 25px; }
 
 .welcome p {
-  text-align: justified; }
+  text-align: justify; }
 
 /* Contact form styles */
 .contact-form {
