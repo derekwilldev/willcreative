@@ -9,6 +9,8 @@
 
 /* Import theme css */
 /* reds */
+/* grays */
+/* Links */
 /* fonts/text */
 /* Base/default styles for theme */
 body {
@@ -41,7 +43,7 @@ h6 {
 
 p {
   font-family: "Didact Gothic", sans-serif;
-  color: #cfcfcf;
+  color: #999999;
   font-size: 20px; }
 
 ul {
@@ -169,7 +171,7 @@ footer copyright {
   margin-bottom: 25px; }
 
 .welcome p {
-  text-align: justified; }
+  text-align: justify; }
 
 /* Contact form styles */
 .contact-form {

@@ -8,11 +8,15 @@ $white: #FFFFFF;
 $offWhite: #cfcfcf;
 
 
+/* grays */
+$lightGray: #999999;
+
+
+/* Links */
 $primaryLink:#000000;
 $primaryLinkHover: #E52E43;
 $primaryLinkActive: #000000;
 $primaryLinkVisited: #000000;
-
 $secondaryLink: #FFFFFF;
 
 
@@ -29,36 +33,42 @@ body {
 h1 {
 	font-family: $sans-fonts;
 	color: $dark-red;
+	font-weight: 900;
 }
 
 h2 {
 	font-family: $sans-fonts;
 	color: $dark-red;
+	font-weight: 900;
 }
 
 h3 {
 	font-family: $sans-fonts;
 	color: $dark-red;
+	font-weight: 900;
 }
 
 h4 {
 	font-family: $sans-fonts;
 	color: $dark-red;
+	font-weight: 900;
 }
 
 h5 {
 	font-family: $sans-fonts;
 	color: $dark-red;
+	font-weight: 900;
 }
 
 h6 {
 	font-family: $sans-fonts;
 	color: $dark-red;
+	font-weight: 900;
 }
 
 p {
 	font-family: $sans-fonts;
-	color: $offWhite;
+	color: $lightGray;
 	font-size: 20px;
 }
 
