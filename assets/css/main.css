@@ -12,29 +12,36 @@
 /* fonts/text */
 /* Base/default styles for theme */
 body {
-  background: #961e2c;
+  background: #FFFFFF;
   margin: 0 0 100px 0; }
 
 h1 {
-  font-family: "Didact Gothic", sans-serif; }
+  font-family: "Didact Gothic", sans-serif;
+  color: #961e2c; }
 
 h2 {
-  font-family: "Didact Gothic", sans-serif; }
+  font-family: "Didact Gothic", sans-serif;
+  color: #961e2c; }
 
 h3 {
-  font-family: "Didact Gothic", sans-serif; }
+  font-family: "Didact Gothic", sans-serif;
+  color: #961e2c; }
 
 h4 {
-  font-family: "Didact Gothic", sans-serif; }
+  font-family: "Didact Gothic", sans-serif;
+  color: #961e2c; }
 
 h5 {
-  font-family: "Didact Gothic", sans-serif; }
+  font-family: "Didact Gothic", sans-serif;
+  color: #961e2c; }
 
 h6 {
-  font-family: "Didact Gothic", sans-serif; }
+  font-family: "Didact Gothic", sans-serif;
+  color: #961e2c; }
 
 p {
   font-family: "Didact Gothic", sans-serif;
+  color: #cfcfcf;
   font-size: 20px; }
 
 ul {
@@ -162,11 +169,7 @@ footer copyright {
   margin-bottom: 25px; }
 
 .welcome p {
-  color: #FFFFFF;
   text-align: justified; }
-
-.welcome h2 {
-  color: #FFFFFF; }
 
 /* Contact form styles */
 .contact-form {
