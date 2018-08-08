@@ -14,7 +14,7 @@
 /* fonts/text */
 /* Base/default styles for theme */
 body {
-  background: #FFFFFF;
+  background: #f1f1f1;
   margin: 0 0 100px 0; }
 
 h1 {
@@ -49,7 +49,7 @@ h6 {
 
 p {
   font-family: "Didact Gothic", sans-serif;
-  color: #999999;
+  color: #555555;
   font-size: 20px; }
 
 ul {
@@ -73,12 +73,12 @@ header {
 
 header #logo {
   max-width: 320px;
-  min-width: 200px;
+  min-width: 100px;
   width: 100%; }
 
-header .logo {
-  max-width: 320px;
-  width: 100%; }
+@media screen and (max-width: 767px) {
+  header #logo {
+    max-width: 150px; } }
 
 nav {
   margin-top: 50px;
@@ -125,48 +125,34 @@ footer .quick-contact {
 
 /* Footer's contact button/page link */
 .contact-button__wrapper {
-  background: #FFFFFF;
-  height: 100px;
+  height: 150px;
   width: 100%;
   position: absolute;
-  -webkit-border-top-right-radius: 15px;
-  -moz-border-top-right-radius: 15px;
-  -ms-border-top-right-radius: 15px;
-  border-top-right-radius: 15px;
-  -webkit-border-top-left-radius: 15px;
-  -moz-border-top-left-radius: 15px;
-  -ms-border-top-left-radius: 15px;
-  border-top-left-radius: 15px; }
+  margin-top: -45px;
+  cursor: pointer; }
   .contact-button__wrapper a {
     color: #bd1e2c;
-    font-weight: 900; }
+    font-weight: 900;
+    position: absolute;
+    z-index: -5;
+    background: #FFFFFF;
+    box-shadow: 0 -5px 18px #000001;
+    font-size: 30px;
+    line-height: 85px;
+    height: 100%;
+    width: 120px;
+    display: block;
+    -webkit-border-top-right-radius: 15px;
+    -moz-border-top-right-radius: 15px;
+    -ms-border-top-right-radius: 15px;
+    border-top-right-radius: 15px;
+    -webkit-border-top-left-radius: 15px;
+    -moz-border-top-left-radius: 15px;
+    -ms-border-top-left-radius: 15px;
+    border-top-left-radius: 15px; }
   .contact-button__wrapper a:hover {
     color: #000000;
-    text-decoration: none;
-    box-shadow: 0 -5px 18px #000001; }
-
-@media (max-width: 767px) {
-  .quick-contact__contact-button {
-    padding: 0; } }
-
-@media (min-width: 768px) {
-  .contact-button__wrapper {
-    margin-top: -45px;
-    cursor: pointer; }
-    .contact-button__wrapper a {
-      font-size: 30px;
-      line-height: 85px;
-      height: 100%;
-      width: 100%;
-      display: block;
-      -webkit-border-top-right-radius: 15px;
-      -moz-border-top-right-radius: 15px;
-      -ms-border-top-right-radius: 15px;
-      border-top-right-radius: 15px;
-      -webkit-border-top-left-radius: 15px;
-      -moz-border-top-left-radius: 15px;
-      -ms-border-top-left-radius: 15px;
-      border-top-left-radius: 15px; } }
+    text-decoration: none; }
 
 /* Footer's copyright */
 footer copyright {
