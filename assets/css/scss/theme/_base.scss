@@ -5,11 +5,12 @@ $logo-red: #bd1e2c;
 
 $black: #000000;
 $white: #FFFFFF;
-$offWhite: #cfcfcf;
+$offWhite: #f1f1f1;
 
 
 /* grays */
 $lightGray: #999999;
+$mediumGray: #555555;
 
 
 /* Links */
@@ -26,7 +27,7 @@ $sans-fonts: 'Didact Gothic', sans-serif;
 
 /* Base/default styles for theme */
 body {
-	background: $white;
+	background: $offWhite;
 	margin: 0 0 100px 0;
 }
 
@@ -68,7 +69,7 @@ h6 {
 
 p {
 	font-family: $sans-fonts;
-	color: $lightGray;
+	color: $mediumGray;
 	font-size: 20px;
 }
 
