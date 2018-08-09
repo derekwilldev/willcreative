@@ -1,15 +1,20 @@
 $(document).ready(function() {
+	// create contact buttons and merge them
+	var $footerContactButton = $('div.contact-button__wrapper');
+	var $footerContactIcon = $('li.contact-icon');
+	var $footerContact = $.merge($footerContactButton, $footerContactIcon);
 
-	var $navContactButton = $('div.contact-button__wrapper');
-	var $navContactIcon = $('li.contact-icon');
-	var $contactForm = $('section.contact-form');
+	var $contactFormSection = $('section.contact-form');
+	var $mainContainer = $('div.main');
 
-	$($navContactButton).on('click', function() {
-		swapAriaStatus($contactForm);
+	// Up/down sliding contact section
+	$($footerContact).on('click', function() {
+		swapAriaStatus($contactFormSection);
 	});
 
-	$($navContactIcon).on('click', function() {
-		swapAriaStatus($contactForm);
+	// If click event outside open contact section, close it
+	$($mainContainer).on('click', function() {
+		closeContactForm($contactFormSection);		
 	});
 
 });
@@ -22,5 +27,12 @@ function swapAriaStatus(form) {
 	}
 	else {
 		$(form).attr("aria-hidden", "false");
+	}
+};
+
+// close contact form if opened
+function closeContactForm(form) {
+	if ($(form).attr("aria-hidden") == "false") {
+		$(form).attr("aria-hidden", "true");
 	}
 };
