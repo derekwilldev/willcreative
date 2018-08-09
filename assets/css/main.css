@@ -81,8 +81,8 @@ header #logo {
     max-width: 150px; } }
 
 nav {
-  margin-top: 50px;
-  margin-bottom: 50px; }
+  margin-top: 100px;
+  margin-bottom: 100px; }
 
 nav ul.nav-menu {
   margin: 0;
@@ -91,7 +91,7 @@ nav ul.nav-menu {
   nav ul.nav-menu li {
     list-style-type: none;
     display: inline;
-    font-size: 55px; }
+    font-size: 40px; }
   nav ul.nav-menu li.nav-item {
     margin: 0 39px; }
   nav ul.nav-menu li.nav-item:nth-child(2) {
