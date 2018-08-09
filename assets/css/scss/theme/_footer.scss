@@ -12,7 +12,7 @@ footer .quick-contact {
 	padding-top: 25px;
 	padding-bottom: 25px;
 
-	ul {
+	ul.social-nav {
 		margin: 0;
 		padding: 0;
 
@@ -20,7 +20,7 @@ footer .quick-contact {
 			list-style-type: none;
 			display: inline;
 			font-size: 14px;
-			margin: 0 31px;
+			margin: 0 8px;
 		}
 
 		li:fist-child {
@@ -35,12 +35,12 @@ footer .quick-contact {
 
 
 /* Footer's contact button/page link */
-.contact-button__wrapper {
+footer .contact-button__wrapper {
 	height: 150px;
 	width: 100%;
 	position: absolute;
-		margin-top: -45px;
-		cursor: pointer;
+	margin-top: -45px;
+	cursor: pointer;
 
 	a {
 		color: $logo-red;
@@ -49,17 +49,42 @@ footer .quick-contact {
 		z-index: -5;
 		background: $white;
 		box-shadow: 0 -5px 18px rgb(0, 0, 0.5);
-			font-size: 30px;
-			line-height: 85px;
-			height: 100%;
-			width: 120px;
-			display: block;
-	@include top-border-radius(15px);
+		font-size: 30px;
+		line-height: 85px;
+		height: 100%;
+		width: 120px;
+		display: block;
+		@include top-border-radius(15px);
 	}
 
 	a:hover {
 		color: $primaryLink;
 		text-decoration: none;
+	}
+}
+
+
+/* CSS for mobile screen size - switch contact button */
+@media screen and (max-width: 434px) {
+	footer .quick-contact {
+
+		.col-7 {
+			max-width: 100% !important;
+			flex: none;
+			text-align: center;
+		}
+		.quick-contact__contact-button {
+			display: none;
+		}
+
+	}
+}
+
+
+/* CSS for mobile screen size - switch contact button */
+@media screen and (min-width: 435px) {
+	footer ul.social-nav li.contact-icon {
+		display: none;
 	}
 }
 
