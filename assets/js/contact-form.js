@@ -1,9 +1,14 @@
 $(document).ready(function() {
 
-	var $navButton = $('div.contact-button__wrapper');
+	var $navContactButton = $('div.contact-button__wrapper');
+	var $navContactIcon = $('li.contact-icon');
 	var $contactForm = $('section.contact-form');
 
-	$($navButton).on('click', function() {
+	$($navContactButton).on('click', function() {
+		swapAriaStatus($contactForm);
+	});
+
+	$($navContactIcon).on('click', function() {
 		swapAriaStatus($contactForm);
 	});
 
