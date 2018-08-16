@@ -161,11 +161,6 @@ footer .contact-button__wrapper {
     min-width: 30px;
     width: 100%; } }
 
-/* CSS for mobile screen size - switch contact button */
-@media screen and (min-width: 435px) {
-  footer .contact-icon {
-    display: none; } }
-
 /* Footer's copyright */
 footer copyright {
   font-size: 10px; }
