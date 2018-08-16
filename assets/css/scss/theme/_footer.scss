@@ -52,7 +52,7 @@ footer .contact-button__wrapper {
 		font-size: 30px;
 		line-height: 85px;
 		height: 100%;
-		width: 120px;
+		width: 100%;
 		display: block;
 		@include top-border-radius(15px);
 	}
@@ -68,13 +68,10 @@ footer .contact-button__wrapper {
 @media screen and (max-width: 434px) {
 	footer .quick-contact {
 
-		.col-7 {
-			max-width: 100% !important;
-			flex: none;
-			text-align: center;
-		}
-		.quick-contact__contact-button {
-			display: none;
+		.quick-contact__contact-icon img {
+			max-width: 40px;
+			min-width: 30px;
+			width: 100%;
 		}
 
 	}
@@ -83,7 +80,7 @@ footer .contact-button__wrapper {
 
 /* CSS for mobile screen size - switch contact button */
 @media screen and (min-width: 435px) {
-	footer ul.social-nav li.contact-icon {
+	footer .contact-icon {
 		display: none;
 	}
 }
